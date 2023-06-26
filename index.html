@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenterGym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+      <div class="main">
+        <div class="nav">
+            <!-- nav-pc -->
+            <nav class="nav__pc">
+                <span class="span__nav-pc">
+                    <a href="index.html" class="span__nav-pc-link">GYMCENTER</a>
+                </span>
+                <ul class="nav__list">
+                    <li class="nav__list-li">
+                        <a href="CLB.html" class="nav__list-link">CLB</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="dichvu.html" class="nav__list-link">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="support.html" class="nav__list-link">HỖ TRỢ TẬP LUYỆN</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="chinhsachgia.html" class="nav__list-link">CHÍNH SÁCH GIÁ</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="News.html" class="nav__list-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="dangkitapthu.html" class="nav__list-link">ĐĂNG KÝ TẬP THỬ</a>
+                    </li>
+                    <button class="nav__btn_language"><img src="./assets/img/language.png" alt=""></button>
+                </ul>
+                <label class="nav__bars-btn" for="nav-mobile-input">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+            </nav>
+            <input type="checkbox" name="" id="nav-mobile-input" class="nav__input">
+            <label for="nav-mobile-input" class="nav__overlay">
+            </label>
+
+            <!-- nav_mobile -->
+            <nav class="nav_mobile">
+                <div class="div_header-nav_mobile">
+                    <label for="nav-mobile-input" class="label__nav_mobile"><i class="fa-solid fa-xmark"></i></label>
+                </div>
+                <ul class="nav-mobile__list">
+                    <li class="nav-mobile__list-li">
+                        <a href="CLB.html" class="nav-mobile__list-link">CLB</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="dichvu.html" class="nav-mobile__list-link">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="support.html" class="nav-mobile__list-link">HỖ TRỢ TẬP LUYỆN</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="chinhsachgia.html" class="nav-mobile__list-link">CHÍNH SÁCH GIÁ</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="News.html" class="nav-mobile__list-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="dangkitapthu.html" class="nav-mobile__list-link">ĐĂNG KÝ TẬP THỬ</a>
+                    </li>
+                    <button class="nav-mobile__btn_language"><img src="./assets/img/language.png" alt=""></button>
+                </ul>
+            </nav>
+        </div>
+        <!-- end Nav -->
+        <!-- Content -->
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/img/c1.png" class="d-block w-100 h-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/c2.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/c3.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        <!-- end slide-->
+        <div class="background_image">
+            <div class="gridlibrary wide gridlibrary-top">
+                <div class="gridlibrary__content l-12 c-12 m-12">
+                    <h1>CÁC DỊCH VỤ CỦA CHÚNG TÔI</h1>
+                    <p>Luyện tập tại CENTERGYM sẽ giúp bạn đạt được mục tiêu sức khỏe và hình thể.</p>
+                </div>
+                <div class="rowlibrary rowlibrary-design">
+                    <div class="collibrary collibrary_size l-3 c-6 m-6"><img class="img-item"
+                            src="./assets/img/item.jpg" alt="">
+                        <div class="caption">
+                            <div class="caption-about">GROUP</div>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_size l-3 c-6 m-6"><img class="img-item"
+                            src="./assets/img/item1.jpg" alt="">
+                        <div class="caption">
+                            <div class="caption-about">YOGA</div>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_size l-3 c-6 m-6"><img class="img-item"
+                            src="./assets/img/item2.jpg" alt="">
+                        <div class="caption">
+                            <div class="caption-about">TRAINER</div>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_size l-3 c-6 m-6"><img class="img-item"
+                            src="./assets/img/item3.jpg" alt="">
+                        <div class="caption">
+                            <div class="caption-about">MORE</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End background_image-->
+        <div class="story_group">
+            <div class="swiper mySwiper gridlibrary wide gridlibrary-top">
+                <div class="gridlibrary__content l-12 c-12 m-12">
+                    <h1>CÂU CHUYỆN HỘI VIÊN</h1>
+                    <p>CENTERGYM dùng toàn bộ nỗ lực để giúp bạn yêu cơ thể mình hơn, đều đặn mỗi ngày.</p>
+                </div>
+                <div class="swiper-wrapper no-gutters rowlibrary-design ">
+                    <div class="collibrary swiper-slide collibrary_size-story l-4 m-6 c-12">
+
+                        <img src="./assets/img/amthuc.jpg" alt="">
+                        <div class="content">
+                            <p>Việc luyện tập đều đặn tại CENTERGYM và đúng kỹ thuật, cùng với một chế độ dinh dưỡng hợp
+                                lý sẽ giúp cải thiện vóc dáng một cách rõ rệt</p>
+                        </div>
+                    </div>
+                    <div class="collibrary swiper-slide collibrary_size-story l-4 m-6 c-12">
+
+                        <img src="./assets/img/story1.png" alt="">
+                        <div class="content">
+                            <p>Hơn 10 năm kinh nghiệm về lĩnh vực Thể hình và chăm sóc Sức khỏe, đến nay CLB CENTERGYM
+                                đã ra đời và mở rộng được 2 chi nhánh. CLB CENTERGYM đã được đông đảo khách hàng lựa
+                                chọn. </p>
+                        </div>
+                    </div>
+                    <div class="collibrary swiper-slide collibrary_size-story l-4 m-6 c-12">
+
+                        <img src="./assets/img/story2.png" alt="">
+                        <div class="content">
+                            <p>CLB CENTERGYM không bao giờ tự mãn mà vẫn tiếp tục phấn đấu không ngừng để luôn luôn là
+                                một người bạn thân thiết và mang đến những quyền lợi tốt nhất cho khách hàng.</p>
+                        </div>
+                    </div>
+                    <div class="collibrary swiper-slide collibrary_size-story l-4 m-6 c-12">
+
+                        <img src="./assets/img/story3.png" alt="">
+                        <div class="content">
+                            <p> Chắc chắn buổi tập thành công sẽ phản ánh bằng tinh thần rất thoải mái, hưng phấn. Bên
+                                cạnh đó nó cũng phải có sự biểu hiện qua sự đau nhức nhóm cơ mà bạn tập. Đó mới là buổi
+                                tập mang lại kết quả cho bạn.</p>
+                        </div>
+                    </div>
+                    <div class="collibrary swiper-slide collibrary_size-story l-4 m-6 c-12">
+
+                        <img src="./assets/img/group3.jpg" alt="">
+                        <div class="content">
+                            <p> PT Gym sẽ giúp các bạn chắc chắn sẽ được tập luyện các bài tập đúng tư thế , phù hợp với
+                                cơ thể hạn chế những chấn thương , những ảnh hưởng về sức khỏe khi tập sai tư thế , sai
+                                cách </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end story_group -->
+    <div class="gridlibrary gridlibrary_after_before ">
+
+        <div class="rowlibrary">
+            <div class="collibrary after_before-content l-7 m-7 c-12">
+                <h1>BEFORE & AFTER</h1>
+                <p>Tập luyện tại CENTERGYM để có cơ hội thay đổi ngoại hình một cách ngoạn mục
+                    Việc luyện tập đều đặn tại CENTERGYM và đúng kỹ thuật, cùng với một chế độ dinh dưỡng hợp lý sẽ giúp
+                    cải thiện vóc dáng một cách rõ rệt. Huấn luyện viên của CENTERGYM thiết kế chương trình luyện tập
+                    dựa trên chỉ số cơ thể, tình trạng sức khỏe của bạn nhằm giúp bạn thấy rõ sự thay đổi ngoạn mục chỉ
+                    trong khoảng trung bình từ 6-8 tuần.</p>
+            </div>
+            <div class="collibrary l-5  c-12">
+                <div class="container_after_before">
+                    <img src="./assets/img/after.png" alt="">
+                    <img id="my-img" src="./assets/img/before.png" alt="">
+                    <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end after-before -->
+    <div class="gridlibrary gridlibrary_bmi ">
+        <div class="rowlibrary">
+            <div class="collibrary collibrary_bmi l-6  c-12 m-12" data-aos="fade-up">
+                <img src="./assets/img/bmi.webp" alt="">
+            </div>
+            <div class="collibrary l-6 c-12 m-12 collibrary_bmi-content" data-aos="fade-down">
+                <h1>TÍNH BMI (CHỈ SỐ KHỐI CƠ THỂ)</h1>
+                <p>Đo chỉ số BMI tại CENTERGYM để đánh giá mức độ béo, gầy hay cân nặng lý tưởng của bạn
+                    CENTERGYM hỗ trợ hội viên đo chỉ số BMI trước và trong quá trình tập luyện để hội viên có thể theo
+                    dõi được kết quả tập luyện. BMI là chỉ số khối cơ thể (Body Mass Index), được các bác sĩ và chuyên
+                    gia sức khỏe dùng để xác định một người có bị béo phì, thừa cân hay quá gầy. Hãy để lại thông tin để
+                    CENTERGYM có thể giúp bạn phân tích sức khỏe và đưa ra những tư vấn phù hợp với thể trạng của bạn.
+                </p>
+
+                <form action="" class="from_b-mi" onsubmit="event.preventDefault(); calculateBMI();">
+                    <div class="rowlibrary">
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <input type="text" class="form_element-input" id="height" placeholder="Chiều cao / cm">
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <input type="text" class="form_element-input" id="weight" placeholder="Cân nặng / kg">
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <input type="text" id="age" class="form_element-input" placeholder="Tuổi">
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <select id="gender" class="form_element-input">
+                                <option value="">Giới Tính</option>
+                                <option value="male">Nam</option>
+                                <option value="female">Nữ</option>
+                            </select>
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <input type="text" id="name" class="form_element-input" placeholder="Họ và tên">
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <input type="text" class="form_element-input" id="phone" placeholder="Số điện thoại">
+                        </div>
+                        <div class="collibrary collibrary_element l-6 c-12 m-12">
+                            <button class="form_element-button c-12 m-12">NHẬN KẾT QUẢ</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "107778822239750");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v17.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <footer class="footer">
+        <br><br>
+        <div class="rowlibrary wide">
+            <div class="collibrary  l-4 c-12 m-12">
+                <ul class="footer-list">
+                    <li class="footer-list-item Distance">
+                        <p class="footer-content">CENTERGYM</p>
+                    </li>
+                    <li class="footer-list-item Distance"><i class="fas fa-phone"></i> <a class="footer-item_link"
+                            href=""> 09919290</a></li>
+                    <li class="footer-list-item Distance"><i class="fas fa-map"></i><a class="footer-item_link" href="">
+                            26 Đ. Trần Hưng Đạo, Điện Ngọc, Điện Bàn, Quảng Nam 550000, Việt Nam</a></li>
+                    <li class="footer-list-item Distance"><i class="fa-regular fa-clock"></i> Thứ hai - Chủ Nhật:
+                        6:00-22:00</li>
+                </ul>
+            </div>
+            <div class="collibrary  l-4 c-12 m-12">
+                <div class="footer-div">
+                    <div class=" l-5 c-5 m-12">
+                        <ul class="footer-list">
+                            <br><br>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Thanh toán</a>
+                            </li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Dịch Vụ</a></li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Chính sách giá</a>
+                            </li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Chính sách bảo
+                                    mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="  l-5 c-5 m-12">
+                        <ul class="footer-list  footer-left">
+                            <br><br>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Tin Tức</a></li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Liên hệ</a></li>
+                            <li class="footer-list-item Distance"><a class="footer-item_link" href="">Câu lạc bộ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="collibrary  l-4 c-12 m-12">
+                <p class="footer-content_">MẠNG XÃ HỘI</p>
+                <div style="display: flex;margin-left: 10px;">
+                    <a class="footer-item_link" href=""> <i class="footer-i fa-brands fa-facebook "></i></a>
+                    <a class="footer-item_link" href=""><i class="footer-i fa-brands fa-instagram "></i></a>
+                    <a class="footer-item_link" href=""> <i class="footer-i fa-brands fa-youtube "></i></a>
+                </div><br>
+                <p class="footer-content_">CEO</p>
+                <ul class="footer-list_">
+                    <li class="footer-list-item_ Distance">Lê Văn Quân</li>
+                    <li class="footer-list-item_ Distance">Tô Hiếu Ngoan</li>
+                    <li class="footer-list-item_ Distance">Đoàn Quốc Huy</li>
+                </ul>
+            </div>
+        </div><br><br><br>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="./assets/javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <!-- bmi js -->
+    <script>
+        function calculateBMI() {
+            var height = parseFloat(document.getElementById("height").value) / 100;
+            var weight = parseFloat(document.getElementById("weight").value);
+            var age = parseInt(document.getElementById("age").value);
+            var gender = document.getElementById("gender").value;
+            var name = document.getElementById("name").value;
+            var bmi = weight / (height * height);
+
+            const token = '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';
+
+            fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + token,
+                },
+                body: JSON.stringify({
+                    "model": "gpt-3.5-turbo",
+                    "messages": [{ "role": "user", "content": "Tôi tên là " + name + ", năm nay " + age + " tuổi, giới tính " + gender + ", chỉ số BMI của tôi là " + bmi.toFixed(2) + ", hãy cho tôi những lời khuyên về dinh dưỡng và tập luyện một cách ngắn gọn" }]
+                })
+            })
+                .then(response => {
+                    return response.json();
+                }).then(data => {
+                    var message = data.choices[0].message.content;
+                    var result = "Tên: " + name + "\n" + "Tuổi: " + age + "\n" + "Giới tính: " + gender + "\n" + "Chỉ số BMI: " + bmi.toFixed(2) + "\n" + "Lời khuyên: " + message;
+                    alert(result);
+                });
+        }
+    </script>
+</body>
+
+</html>

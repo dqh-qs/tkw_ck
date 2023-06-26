@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenterGym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/CLB.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <!-- nav-pc -->
+            <nav class="nav__pc">
+                <span class="span__nav-pc">
+                    <a href="index.html" class="span__nav-pc-link">GYMCENTER</a>
+                </span>
+                <ul class="nav__list">
+                    <li class="nav__list-li">
+                        <a href="CLB.html" class="nav__list-link">CLB</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="dichvu.html" class="nav__list-link">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="support.html" class="nav__list-link">HỖ TRỢ TẬP LUYỆN</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="chinhsachgia.html" class="nav__list-link">CHÍNH SÁCH GIÁ</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="News.html" class="nav__list-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav__list-li">
+                        <a href="dangkitapthu.html" class="nav__list-link">ĐĂNG KÝ TẬP THỬ</a>
+                    </li>
+                    <button class="nav__btn_language"><img src="./assets/img/language.png" alt=""></button>
+                </ul>
+                <label class="nav__bars-btn" for="nav-mobile-input">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+            </nav>
+            <input type="checkbox" name="" id="nav-mobile-input" class="nav__input">
+            <label for="nav-mobile-input" class="nav__overlay">
+            </label>
+
+            <!-- nav_mobile -->
+            <nav class="nav_mobile">
+                <div class="div_header-nav_mobile">
+                    <label for="nav-mobile-input" class="label__nav_mobile"><i class="fa-solid fa-xmark"></i></label>
+                </div>
+                <ul class="nav-mobile__list">
+                    <li class="nav-mobile__list-li">
+                        <a href="CLB.html" class="nav-mobile__list-link">CLB</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="dichvu.html" class="nav-mobile__list-link">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="support.html" class="nav-mobile__list-link">HỖ TRỢ TẬP LUYỆN</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="chinhsachgia.html" class="nav-mobile__list-link">CHÍNH SÁCH GIÁ</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="News.html" class="nav-mobile__list-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav-mobile__list-li">
+                        <a href="dangkitapthu.html" class="nav-mobile__list-link">ĐĂNG KÝ TẬP THỬ</a>
+                    </li>
+                    <button class="nav-mobile__btn_language"><img src="./assets/img/language.png" alt=""></button>
+                </ul>
+            </nav>
+        </div>
+        <!-- end Nav -->
+        <!-- end Nav -->
+        <div class="clb_background_img">
+            <img src="./assets/img/CÂU LẠC BỘ MIỀN TRUNG TÂY NGUYÊN.png" alt="">
+        </div>
+        <div class="clb_title">
+            <h1>TẬP LUYỆN Ở CÂU LẠC BỘ GẦN BẠN</h1>
+            <p>Hệ thống phòng tập gym và yoga của CENTERGYM có mặt khắp các quận huyện ở khu vực miền Trung Tây Nguyên.
+                Lựa chọn phòng tập gần bạn nhất để có thể tập luyện dễ dàng và tiết kiệm thời gian.</p>
+
+            <div class="div_Address_clb">
+                <select id="address_clb" class="Address_clb">
+                    <option value="">Chọn quận gần bạn</option>
+                    <option value="haiChau">Quận Hải Châu</option>
+                    <option value="camLe">Quận Cẩm Lệ</option>
+                    <option value="thanhKhe">Quận Thanh Khê</option>
+                    <option value="lienChieu">Quận Liên Chiểu</option>
+                    <option value="nguHanhSon">Quận Ngũ Hành Sơn</option>
+                    <option value="sonTra">Quận Sơn Trà</option>
+                    <option value="hoaVang">Quận Hòa Vang</option>
+                </select>
+            </div>
+        </div>
+        <!-- end title clb -->
+        <div class="list_address_clb">
+            <div class="gridlibrary wide">
+                <div class="rowlibrary" id="clubContainer">
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="thanhKheClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/HCM_900x600.jpg" alt="">
+                        <div class="content_list_clb">
+                            <h1>California Fitness & Yoga</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>155 Nguyễn Văn Linh, Quận Thanh Khê, Đà Nẵng</p>
+                            <p><i class="fa-solid fa-phone"></i>(0511) 3538 999</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="thanhKheClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/BinhDuong_900x600.jpg" alt="">
+                        <div class="content_list_clb">
+                            <h1>Elite Fitness And Yoga</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>Tầng 7 255 – 257 Hùng Vương, Tĩnh Trung, Thanh
+                                Khê.</p>
+                            <p><i class="fa-solid fa-phone"></i>(0341) 3582 499</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="sonTraClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/Danang_900x600.webp" alt="">
+                        <div class="content_list_clb">
+                            <h1>HD Fitness Center</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>996 Ngô Quyền, Sơn Trà</p>
+                            <p><i class="fa-solid fa-phone"></i>1900633638</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="haiChauClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/DongNai_900x600.jpg" alt="">
+                        <div class="content_list_clb">
+                            <h1>Galaxy Fitness & Yoga Center</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>06 Phan Đăng Lưu, Hải Châu, ĐN</p>
+                            <p><i class="fa-solid fa-phone"></i>02873062424</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="camLeClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/Hanoi_900x600.webp" alt="">
+                        <div class="content_list_clb">
+                            <h1>VPT Fitness 2</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>43 Nguyễn Nhàn, Cẩm Lệ, ĐN</p>
+                            <p><i class="fa-solid fa-phone"></i>02873062424</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="haiChauClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/NhaTrang_900x600.jpg" alt="">
+                        <div class="content_list_clb">
+                            <h1>H Private Fitness</h1>
+                            <p><i class="fa-solid fa-location-dot"></i>144 Ông Ích Khiêm, Hải Châu, ĐN</p>
+                            <p><i class="fa-solid fa-phone"></i>02873062424</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                    <div class="collibrary collibrary_list_clb l-4 m-6 c-12" id="thanhKheClub" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/img/VTC_900x600.jpg" alt="">
+                        <div class="content_list_clb">
+                            <h1>Fitness & Yoga Funny</h1>
+                            <p> <i class="fa-solid fa-location-dot"></i>340 Điện Biên Phủ, Thanh Khê, ĐN</p>
+                            <p><i class="fa-solid fa-phone"></i>02873062424</p>
+                            <a href="" class="more_info">Xem Thêm...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end list_address_clb  -->
+        <div class="register_clb l-12 c-12 m-12">
+            <div class="content_register_clb">
+                <h1>ĐĂNG KÝ THAM QUAN CÂU LẠC BỘ</h1>
+                <div class="content_emplement ">
+                    <input type="text" placeholder="Họ và tên">
+                    <input placeholder="Số điện thoại">
+                </div>
+                <div class="content_emplement">
+                    <select class="">
+                        <option>Chọn quận bạn muốn tham gia</option>
+                        <option>CLB Quận Hải Châu.</option>
+                        <option>CLB Quận Cẩm Lệ</option>
+                        <option>CLB Quận Thanh Khê</option>
+                        <option>CLB Quận Liên Chiểu.</option>
+                        <option>CLB Quận Ngũ Hành Sơn.</option>
+                        <option>CLB Quận Sơn Trà</option>
+                    </select>
+                </div>
+
+                <div class="content_emplement m-12">
+                    <select name="content">
+                        <option value="">Giờ nào chúng tôi có thể gọi bạn?</option>
+                        <option value="9:00 AM - 12:00 PM">9:00 AM - 12:00 PM</option>
+                        <option value="12:00 PM - 2:00 PM">12:00 PM - 2:00 PM</option>
+                        <option value="2:00 PM - 5:00 PM">2:00 PM - 5:00 PM</option>
+                        <option value="5:00 PM - 10:00 PM">5:00 PM - 10:00 PM</option>
+                    </select>
+                </div>
+                <div class="content_emplement">
+                    <button>Đăng ký ngay</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- Messenger Plugin chat Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "107778822239750");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v17.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- end content_register_clb -->
+        <footer class="footer">
+            <br><br>
+            <div class="rowlibrary wide">
+                <div class="collibrary  l-4 c-12 m-12">
+                    <ul class="footer-list">
+                        <li class="footer-list-item Distance">
+                            <p class="footer-content">CENTERGYM</p>
+                        </li>
+                        <li class="footer-list-item Distance"><i class="fas fa-phone"></i> <a class="footer-item_link"
+                                href=""> 09919290</a></li>
+                        <li class="footer-list-item Distance"><i class="fas fa-map"></i><a class="footer-item_link"
+                                href="">
+                                26 Đ. Trần Hưng Đạo, Điện Ngọc, Điện Bàn, Quảng Nam 550000, Việt Nam</a></li>
+                        <li class="footer-list-item Distance"><i class="fa-regular fa-clock"></i> Thứ hai - Chủ Nhật:
+                            6:00-22:00</li>
+                    </ul>
+                </div>
+                <div class="collibrary  l-4 c-12 m-12">
+                    <div class="footer-div">
+                        <div class=" l-5 c-5 m-12">
+                            <ul class="footer-list">
+                                <br><br>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Thanh toán</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Dịch Vụ</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Chính sách
+                                        giá</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Chính sách bảo
+                                        mật</a></li>
+                            </ul>
+                        </div>
+                        <div class="  l-5 c-5 m-12">
+                            <ul class="footer-list  footer-left">
+                                <br><br>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Tuyển Dụng</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Tin Tức</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Liên hệ</a>
+                                </li>
+                                <li class="footer-list-item Distance"><a class="footer-item_link" href="">Câu lạc bộ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="collibrary  l-4 c-12 m-12">
+                    <p class="footer-content_">MẠNG XÃ HỘI</p>
+                    <div style="display: flex;margin-left: 10px;">
+                        <a class="footer-item_link" href=""> <i class="footer-i fa-brands fa-facebook "></i></a>
+                        <a class="footer-item_link" href=""><i class="footer-i fa-brands fa-instagram "></i></a>
+                        <a class="footer-item_link" href=""> <i class="footer-i fa-brands fa-youtube "></i></a>
+                    </div><br>
+                    <p class="footer-content_">CEO</p>
+                    <ul class="footer-list_">
+                        <li class="footer-list-item_ Distance">Lê Văn Quân</li>
+                        <li class="footer-list-item_ Distance">Tô Hiếu Ngoan</li>
+                        <li class="footer-list-item_ Distance">Đoàn Quốc Huy</li>
+                    </ul>
+                </div>
+            </div><br><br><br>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        const clubContainer = document.getElementById("clubContainer");
+        const clubs = clubContainer.getElementsByClassName("collibrary_list_clb");
+        const addressClb = document.getElementById("address_clb");
+
+        addressClb.addEventListener("change", function () {
+            const selectedAddress = this.value;
+            for (let i = 0; i < clubs.length; i++) {
+                const club = clubs[i];
+                if (selectedAddress === "") {
+                    club.style.display = "block";
+                } else if (club.id === selectedAddress + "Club") {
+                    club.style.display = "block";
+                } else {
+                    club.style.display = "none";
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+
+.clb_background_img{
+    width: 100%;
+    position: relative;
+    animation: slide 2s ease infinite;
+    animation-iteration-count: 1;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.clb_background_img img{
+    width: 100%;
+    min-height: 250px;
+    
+}
+
+.clb_title{
+    margin-top: 30px;
+}
+.clb_title h1{
+    color:#555;
+    text-align: center; 
+    
+}
+.clb_title p{
+    width: 50%;
+    color:#555;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    line-height: 2rem;
+    padding-top: 20px;
+}
+@media(max-width:1023px){
+    .clb_title p{
+        width: 90%;
+        color:#555;
+        font-size: 1.2rem;
+        
+    }
+}
+.div_Address_clb{
+    width: 300px;
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 30px;    
+}
+.Address_clb{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    
+}
+/* end address cls */
+.collibrary_list_clb{
+    height: 400px;
+    background-clip:content-box;
+    background-color: white;
+    margin-bottom: 24px;
+    
+}
+.collibrary_list_clb img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.collibrary_list_clb:hover img{
+    transform: rotate(-1deg) scale(1.01);
+    opacity: 0.5;
+}
+.content_list_clb h1{
+    font-size: 2.2rem;
+    padding-left: 20px;
+    color:#720000 ;
+}
+.content_list_clb p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.content_list_clb p:nth-of-type(2){
+    color: #AB1111;
+}
+.content_list_clb p i{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color:#AB1111 ;
+}
+.more_info{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+.more_info:hover{
+    color: #AB1111;
+}
+/* end content_list_clb */
+.register_clb{
+    width: 100%;
+   
+    background-image: url(../img/bg-club-section-2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: contain;
+}
+.content_register_clb h1{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding-top: 30px;
+    text-align: center;
+}
+.content_emplement{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.content_emplement input{
+    width: 50%;
+    height: 50px;
+    margin: 0 10px;
+    padding-left: 20px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 3px;
+}
+.content_emplement select{
+    width: 100%;
+    margin: 0 10px;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.6rem;
+    border: none;
+    color: #757575;
+    border-radius: 3px;
+}
+.content_emplement button{
+    width: 210px;
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    background-color: #720000;
+    border-radius: 3px;
+    border: none;
+}
+.content_register_clb{
+    
+    padding-bottom: 20px;
+}
+@media (max-width:599px){
+    .register_clb{
+        background-repeat: no-repeat;
+        background-size:cover;
+        object-fit: cover;
+    }
+    .content_emplement{
+        display: block;
+        
+    }
+    .content_register_clb h1{
+        line-height: 2.4rem;
+    }
+    .content_emplement{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-bottom: 20px;
+        
+    }
+    
+}
